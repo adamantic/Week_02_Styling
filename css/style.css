@@ -1,0 +1,174 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Open Sans,sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 90%;
+
+}
+
+header {
+
+}
+h1{
+    font-size:24px;
+    font-weight:bolder;
+    color:white;
+    padding:5%;
+}
+.section1{
+
+}
+.section2{
+    height:25%;
+    background-color:aliceblue;
+    top:10%;
+}
+.firstbutton{
+    background-color:#f9e42e;
+    color:black;
+    align-content: center;
+    margin-bottom:15%;
+    margin-top:5%;
+}
+h2{
+    text-align:center;
+    font-size:24px;
+    font-weight:bold;
+    color:white;
+    margin:3%;
+}
+h3{
+    font-size:20px;
+    font-weight:400;
+}
+p{
+    font-size:13px;
+    font-weight:300;
+}
+ul{
+    font-size:13px;
+    font-weight:300;
+    list-style-image: inherit;
+    left-margin:5%;
+    list-style:disc;
+    left:10%;  
+    padding:3%;
+}
+.section2{
+    background-color:#f0efef;
+    padding:5%;
+}
+.section3{
+    padding:7%;
+    color:white;
+}
+.quote{
+    font-style: italic;
+    text-align:center;
+    align-content: center;
+}
+.name{
+    text-align:center;
+
+}
+.section4{
+    background-color:#f9e42e;
+    padding:1%;
+}
+.section5{
+    background-color: #121212;
+    padding-top:10%;
+    padding-left:10%;
+    padding-bottom:3%;
+}
+.fbrand{
+    color:#f9e42e;
+    font-size:14px;
+    font-weight: 800;
+    text-align:center;
+    align-content: center;
+}
+.c{
+    font-size:9px;
+    font-weight:300;
+    color:white;
+    text-align:center;
+    align-content: center;
+}
+.fa-cog {
+  color: white;
+}
+.imgs{
+    padding:10%;
+    align-content: center;
+    padding-left:47.5%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
